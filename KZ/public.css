@@ -1,0 +1,75 @@
+
+
+.p{
+  color:rgba(0,0,0,0.9)
+  }
+.note{
+  color:rgba(0,0,0,0.5);
+  font-size:12px;
+  }
+.end_div{
+  background-color:#333;
+  }
+.end{
+  font-size:12px;
+  text-align:center;
+  color:rgb(200,200,200);
+  }
+.para{
+  text-indent:40px;
+  }
+.photo{
+  width:150px
+  }
+
+.video-container{
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  max-width: 100%; /* 视频宽度最大为容器宽度 */
+  height: auto; /* 视频高度自动调整 */
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: #333; /* 导航栏背景色 */
+    overflow-x: auto; /* 允许横向滚动 */
+    white-space: nowrap; /* 不换行 */
+    padding: 10px 20px; /* 内边距 */
+  }
+
+  .navbar a {
+    font-size: 15px; /* 字体大小 */
+    color: white; /* 字体颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    padding: 10px 15px; /* 每个元素的内边距 */
+    display: inline-block; /* 内联块级元素 */
+  }
+  .navbar a:not(:last-child) {
+    margin-right: 20px; /* 元素间距 */
+  }
+
+.main{
+  margin:20px
+  }
+
+.head_photo{
+  width:150px
+  }
+.now{
+  text-decoration:underline;
+  }
+
+.information{
+  margin:0px
+  }
+
+.head_photo, .information {
+    display: inline-block;
+    vertical-align: top; /* 如果需要对齐顶部 */
+    /* 或者可以使用其他垂直对齐方式，比如 middle、bottom */
+}
+
