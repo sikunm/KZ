@@ -1,0 +1,59 @@
+/* 容器样式 */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* 从左到右排列模块 */
+  padding: 10px;
+  margin-left: -10px; /* 添加负边距以抵消第一个模块的左边距 */
+  margin-right: -10px; /* 添加负边距以抵消最后一个模块的右边距 */
+}
+
+/* 人物模块样式 */
+.person-module {
+  flex: 0 0 150px; /* 固定宽度为150px */
+  margin: 0 10px; /* 上下边距为0，左右边距为10px */
+  border: 1px solid #ccc; /* 细边框 */
+  box-sizing: border-box;
+}
+
+/* 人物链接样式 */
+.person-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black; /* 根据需要调整 */
+}
+
+/* 人物图片样式 */
+.person-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc; /* 图片与人名之间的分隔线 */
+}
+
+/* 人名样式 */
+.person-name {
+  padding: 10px;
+  text-align: center;
+}
+
+/* 响应式设计 */
+@media (min-width: 768px) {
+  .person-module {
+    flex-basis: calc(20% - 20px); /* 每行五个模块，减去间隙 */
+  }
+}
+.fixed-header {
+    position: fixed; /* 固定位置 */
+    top: 0; /* 顶部对齐 */
+    left: 0; /* 左侧对齐 */
+    width: 100%; /* 宽度为100% */
+    background-color: #333; /* 背景颜色 */
+    color: white; /* 文字颜色 */
+    padding: 10px; /* 内边距 */
+    z-index: 1000; /* 确保在其他内容之上 */
+    }
+.content {
+    margin-top: 60px; /* 为内容留出足够的空间，防止被固定头部遮住 */
+}
