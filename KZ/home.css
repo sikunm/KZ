@@ -44,6 +44,7 @@
     flex-basis: calc(20% - 20px); /* 每行五个模块，减去间隙 */
   }
 }
+
 .fixed-header {
     position: fixed; /* 固定位置 */
     top: 0; /* 顶部对齐 */
@@ -55,5 +56,6 @@
     z-index: 1000; /* 确保在其他内容之上 */
     }
 .content {
-    margin-top: 60px; /* 为内容留出足够的空间，防止被固定头部遮住 */
+    margin-top: 100px; /* 为内容留出足够的空间，防止被固定头部遮住 */
+    margin-bottom:0px;
 }
