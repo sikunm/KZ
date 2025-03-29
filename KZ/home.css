@@ -59,3 +59,23 @@
     margin-top: 80px; /* 为内容留出足够的空间，防止被固定头部遮住 */
     margin-bottom:0px;
 }
+
+.separator {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.separate-text {
+  padding: 0 15px;
+  color: #666;
+  font-size: 14px;
+}
+</style>
