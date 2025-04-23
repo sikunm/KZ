@@ -58,11 +58,13 @@
     z-index: 1000; /* 不被其它东西遮住 */
     }
 .content {
-    margin-top: 80px; /*  */
+    margin-top: 80px; /* 把下面的区域直接增加顶边距，很蠢但有用 */
     margin-bottom:0px;
 }
 
-/*分隔线叫分隔者很合理*/
+/* TODO:把上面那个直接加边距改合理点 */
+
+/*分隔线叫分隔者大抵很合理吧*/
 .separator {
   display: flex;
   align-items: center;
