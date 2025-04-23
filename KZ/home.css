@@ -22,7 +22,7 @@
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  color: black; /* 根据需要调整 */
+  color: black; 
 }
 
 /* 人物图片样式 */
@@ -45,21 +45,24 @@
   }
 }
 
+/*上面用的deepseek，这玩意不想自己做*/
+
 .fixed-header {
-    position: fixed; /* 固定位置 */
+    position: fixed; /* 顶到顶部 */
     top: 0; /* 顶部对齐 */
-    left: 0; /* 左侧对齐 */
-    width: 100%; /* 宽度为100% */
-    background-color: #333; /* 背景颜色 */
-    color: white; /* 文字颜色 */
+    left: 0; /* 左边对齐 */
+    width: 100%; /* 宽度搞满 */
+    background-color: #333; /* 又是私人灰色 */
+    color: white; /* 文字的颜色 */
     padding: 10px; /* 内边距 */
-    z-index: 1000; /* 确保在其他内容之上 */
+    z-index: 1000; /* 不被其它东西遮住 */
     }
 .content {
-    margin-top: 80px; /* 为内容留出足够的空间，防止被固定头部遮住 */
+    margin-top: 80px; /*  */
     margin-bottom:0px;
 }
 
+/*分隔线叫分隔者很合理*/
 .separator {
   display: flex;
   align-items: center;
@@ -78,4 +81,3 @@
   color: #666;
   font-size: 14px;
 }
-</style>
