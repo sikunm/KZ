@@ -153,6 +153,7 @@ nav .container {
 
 /* 头部英雄区域 */
 .hero {
+    margin-top:100px;
     height: 100vh;
     background: linear-gradient(135deg, rgba(38, 70, 83, 0.9), rgba(42, 157, 143, 0.8)), url('https://images.unsplash.com/photo-1517344884509-a0c97ec11bcc?ixlib=rb-4.0.3') no-repeat center center/cover;
     display: flex;
